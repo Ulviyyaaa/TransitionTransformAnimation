@@ -1,0 +1,31 @@
+.card {
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+button.btn {
+    padding: 0.3em 3em;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #d1d4d7;
+    font-size: 1.1em;
+    border: 0;
+    cursor: pointer;
+    margin: 1em;
+}
+
+.card:hover {
+    box-shadow: 20px 20px 50px 15px grey;
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    transition: all 1.5s ease;
+}
+
+.zoom:hover img {
+    transform: scale(1.5);
+}
